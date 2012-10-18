@@ -1,0 +1,112 @@
+body {
+  background: url("png.png");
+}
+
+.logo {
+  background: url("jpeg.jpeg");
+  color: white;
+  font-family: 'Bitter', serif;
+  font-size: 54px;
+  font-weight: bold;
+  height: 59px;
+  padding-top: 28px;
+}
+
+#site_hero {
+  background: url('http://www.globeimages.net/data/media/5/blue_skyline_chicago_illinois.jpg');
+  background-size: cover;
+  height: 184px;
+  margin: 0px 0 30px 0;
+  padding: 36px 0px 10px 0px;
+}
+
+h1 { 
+  color: white;
+  font-family: 'Bitter', serif;
+  text-shadow: 1px 1px 1px #3d3d3d; 
+  }
+  
+h2 {
+  color: #676767;
+  font-family: 'Bitter', serif;
+  font-size: 18px;
+}
+
+h4 {
+  color: #676767;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+  
+.row-fluid {
+  text-align: center;
+}  
+
+.btn-large {
+  border-radius: 67px;
+  width: 200px;
+  height: 36px;
+  padding-top: 19px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#submit_form {
+	width: 330px;
+	height: 318px;
+	padding: 20px;
+	background: #fff;
+	margin: 100px auto;
+	border: 3px solid #e8e8e8;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.1), 0px 0px 1px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.1), 0px 0px 1px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.1), 0px 0px 1px rgba(0,0,0,.5);
+	background-image: linear-gradient(bottom, rgb(238,238,238) 0%, rgb(245,245,245) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(238,238,238) 0%, rgb(245,245,245) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 0%, rgb(245,245,245) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 0%, rgb(245,245,245) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 0%, rgb(245,245,245) 100%);
+}
+
+#submit_feilds {
+  box-shadow: 0px 1px 1px white;
+  width: 300px;
+  height: 37px;
+  display: block;
+}
+
+.form_header {
+  border-bottom: 1px solid #CCC;
+  box-shadow: 0px 2px 1px white
+}
+
+.form_footer {
+  margin-top: 25px;
+}
+
+.my_photos {
+  display: block;
+  background: white;
+  border: 5px solid #F0F0F0;
+  border-radius: 0px;
+  height: 260px;
+  min-height: 260px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px #676767;
+}
+
+img {
+  max-width: none;
+  max-height: 225px;
+  min-height: 225px;
+  min-width: 220px;
+}
+
+p {
+  padding: 6px;
+}
