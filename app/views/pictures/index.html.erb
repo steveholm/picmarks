@@ -3,8 +3,11 @@
     <h1>My Picmarks</h1>
   </div>
   
-  <div class="row-fluid">
-    <h5><%= @count %> Photos</h5>
+  <div clss="container_fluid">
+    <div class="row-fluid">
+      <h5><%= @count %> Photos</h5>
+      <a href="pictures/new" class="btn btn-info">Add New Photo</a>
+    </div>
   </div>
   
 
@@ -12,10 +15,11 @@
   
   <% @pictures.each do |p| %>
     <li class="span3 my_photos"><img src="<%= p.url %>">
-      <p><%= p.title %></p>
+      <p><%= p.title %></p><a href="/pictures/delete/<%= p.id %>" class="btn btn-danger">delete</a>
     </li>
   <% end %>
 
 </ul>
+
 
 </div>

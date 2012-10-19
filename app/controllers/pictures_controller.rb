@@ -17,10 +17,18 @@ class PicturesController < ApplicationController
   end
   
   def show
-    x = params[:id].to_i
-    @photo = pictures[x-1]
-    @size = params[:size]
-    @color = params[:color]
+    # x = params[:id].to_i
+    # @photo = pictures[x-1]
+    # @size = params[:size]
+    # @color = params[:color]
+  end
+  
+  def delete
+    p = Picture.find_by_id(params[:id])
+    p.delete
+    p.save
+    
+    redirect_to '/pictures'
   end
   
   def home

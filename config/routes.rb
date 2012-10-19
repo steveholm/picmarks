@@ -10,6 +10,8 @@ Picmarks::Application.routes.draw do
   
   get "/home", :controller => 'pictures', :action => "home"
   
+  get "/pictures/delete/:id", :controller => 'pictures', :action => 'delete'
+  
   root :to => "pictures#home"
   
 end
